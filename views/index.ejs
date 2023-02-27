@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+ 
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <% messages.forEach((message)=> { %>
+      
+          <h2>
+            <%= message.text %>
+          </h2>
+          <p>
+            <%= message.user %>
+          </p>
+      <span><%= message.added %></span>
+      <hr />
+  <% }) %>
+
+<%- include('footer'); -%>
