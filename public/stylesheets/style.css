@@ -2,7 +2,18 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+ul li{
+  margin-top: 5px;
+} 
 a {
   color: #00B7FF;
+  text-decoration: none;
+  background-color: bisque;
+  padding: 5px;
+ 
+}
+li{
+  list-style: none;
+  padding: 5px;
+  
 }
